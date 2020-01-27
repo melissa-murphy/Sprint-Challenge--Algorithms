@@ -96,8 +96,13 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+        # Starts: light off, position 0, no items
+
+        # if the robot can't move left: sort
+
+        # if the robot can't move right: sorting complete
+
+        # with sorting complete, pick up rightmost item
 
 
 if __name__ == "__main__":
