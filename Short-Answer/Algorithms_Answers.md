@@ -1,15 +1,15 @@
-#### Please add your answers to the ***Analysis of  Algorithms*** exercises here.
+#### Please add your answers to the **_Analysis of Algorithms_** exercises here.
 
 ## Exercise I
 
-a)
+a) O(n) The same number of operations have to run, regardless of input, until it hits the upper limit of the while loop
 
 
-b)
+b) O(n^2) Like the previous while loop, except nested - which doubles the operations
 
-
-c)
+c) O(n) This is recursive, so it will call as long as there are bunnies, thus directly proportional
 
 ## Exercise II
+This will be O(n)
 
-
+start with floor 1, drop egg. If the egg breaks, go down one level and set it as f. Otherwise, move up one level and repeat
