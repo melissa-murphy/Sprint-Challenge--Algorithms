@@ -10,3 +10,6 @@ b) O(n^2) Like the previous while loop, except nested - which doubles the operat
 c) O(n) This is recursive, so it will call as long as there are bunnies, thus directly proportional
 
 ## Exercise II
+This will be O(n)
+
+start with floor 1, drop egg. If the egg breaks, go down one level and set it as f. Otherwise, move up one level and repeat
