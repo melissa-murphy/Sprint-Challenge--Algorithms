@@ -115,7 +115,23 @@ class SortingRobot:
                 self.sort()
         # if robot can't move right, then that is the smallest item
         else:
-            
+            if not self.can_move_right():
+                while self.compare_item() != None:
+                    self.move_left()
+
+                self.swap_item()
+                self.move_right()
+                self.set_light_off()
+                self.sort()
+
+        # continue to the right while able, compare and sort
+            else:
+                while self.can_move_right():
+                    self.move_right()
+                    if self.compare_item() == 1:
+                        self.swap_item()
+                self.sort()
+
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
