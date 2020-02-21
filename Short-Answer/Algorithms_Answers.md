@@ -2,13 +2,15 @@
 
 ## Exercise I
 
-a)
+a) O(n) because it must touch everything 
 
 
-b)
+b) O(nlog(n)) 
+Because it has both a for loop: O(n)
+and a while loop: O(log(n))
 
 
-c)
+c) O(n) -- more bunnies == more to touch.
 
 ## Exercise II
 
